@@ -8,35 +8,20 @@
     </head>
     <body>
         <div class="navbar">
-            <ul id="adv_ul">
-                <li class="adv_ul"><a href="index.html" target="_blank" id="adv_li"><img src="download.png" alt="google" id="adv"></a></li>
+            <ul>
+                <li><a href="images.html" target="_blank">Images</a></li>
+                <li><a href="advanced.html" target="_blank">Advanced Search</a></li>
             </ul>
         </div>
-        <p class="para">Advanced Search</p>
-        <hr>
-        <div class="advance">
-            <p>Find page with...</p>
+        <div class="image">
+            <img src="download.png" alt="google image">
         </div>
-        <form action="https://www.google.com/search" class="the_form">
-            <section>
-                <label for="all_word">all these words:</label>
-                <input id="all_word" type="text" name="as_q">
-            </section>
-            
-            <section>
-                <label for="exact_word">this exact word or phrase:</label>
-                <input id="all_word" type="text" name="as_epq">
-            </section>
-            <section>
-                <label for="these_word">any of these words:</label>
-                <input id="all_word" type="text" name="as_oq">
-            </section>
-            <section>
-                <label for="none">none of these words:</label>
-                <input id="all_word" type="text" name="as_eq">
-            </section>
-                
-           <input type="submit" value="Advanced Search" class="last">
+        <form action="https://www.google.com/search">
+            <input class="text" type="text" name="q">
+            <div class="submit">
+                <input type="submit" value="Google Search" class="feeling">
+                <input type="submit" name="btnI" value="I'm Feeling Lucky" class="feeling">
+            </div>
         </form>
     </body>
 </html>
